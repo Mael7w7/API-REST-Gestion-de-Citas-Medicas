@@ -20,6 +20,6 @@ public class PacienteEntity {
     @Column(unique = true, nullable = false)
     private String email;
 
-    private Boolean activo;
+    private Boolean activo=true;
 
 }
